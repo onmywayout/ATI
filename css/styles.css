@@ -1,0 +1,249 @@
+
+
+body
+{
+	
+	    background-image: url(../assets/background.jpg);
+	    background-position-x: -227px;
+    	background-position-y: -160px;
+	    background-size: 1877px;
+	    background-repeat: no-repeat;
+	    font-family: 'Maven Pro', sans-serif;
+	    font-family: 'Roboto', sans-serif;
+	    background-color: black;
+
+}
+
+.contenedor
+{
+	margin: 25px 55px;
+}
+
+/*Titulo en la página*/
+.ati
+{
+	font-family: Maven Pro;
+	font-weight: 400;
+	font-size: 34px;
+    line-height: 34px;
+	color: white;
+	text-align: left;
+	display: table-caption;
+
+}
+
+.textoPrincipalBlanco
+{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 26px;
+	color: white;
+	text-align: right;
+	line-height: 30px;
+}
+
+.textoPrincipalAmarillo
+{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 19px;
+    line-height: 29px;
+	color: #FBB040;
+	text-align: right;
+}
+
+.separadorSeccion
+{
+	width: 140%;
+    border-color: white;
+    margin-left: -20%;
+}
+.separadorBlanco
+{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 24px;
+    text-align: center;
+	color: white;
+
+	margin-top: 76px;
+
+}
+
+.caracteristicas 
+{
+	font-family: Roboto;
+	font-weight: 700;
+	color: #FBB040;
+}
+
+.contenedorCaract
+{
+	height: 375px;
+}
+
+.numero
+{
+	font-size: 24px;
+}
+
+.subtitulo
+{
+	font-size: 	20px;
+}
+
+.textoCarac
+{
+	color: white;
+	font-weight: 300;
+	font-size: 15px;
+	max-width: 85%;
+}
+
+.textBox
+{
+	
+}
+
+input[type="text"]
+{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 24px;
+	color: #999999;
+	text-align: left;
+	height: 57px;
+	width: 100%;
+	padding-left: 10px;
+}
+
+input[type="submit"]
+{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 26px;
+	color: black;
+	/*text-align: left;*/
+	height: 57px;
+	width: 100%;
+	background: #FBB040;
+
+}
+
+form
+{
+	margin: 25px 0;
+}
+
+.whatsapp
+{
+	color: white;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+
+}
+.CaracteristicasDesktop
+{
+	display: flex;
+}
+.carousel
+{
+	display: none;
+}
+
+.carousel-indicators li 
+{
+	background-color: rgba(255,255,255,1);
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+	margin-left: 7px;
+    border-radius: 15px;
+}
+
+.carousel-indicators .active
+{
+	background-color: #FBB040;
+}
+@media all and (max-width: 675px) 
+{
+	
+	body
+	{
+		    background-position-x: -720px;
+
+		    background-size: 1978px;
+	}
+	.ati
+	{
+		font-size : 32px;
+		line-height : 28.83px;
+    	margin-bottom: 32px;
+	}
+
+	.textoPrincipalBlanco
+	{
+		font-size : 20px;
+		line-height : 30px;
+    	margin-bottom: 68px;
+	}
+
+	.textoPrincipalAmarillo
+	{
+		font-size : 18px;
+		line-height : 30px;
+    	margin-bottom: 37px;
+	}
+
+	.separadorSeccion
+	{
+		width: 90%;
+	    margin-left: 5%;
+	}
+	.caracteristicas
+	{
+		text-align: center;
+	}
+
+	.row.caracteristicasDesktop
+	{
+		display: none;
+	}
+	.carousel
+	{
+		display: flex;
+	}
+	.numero
+	{
+		font-size: 26px;
+	}
+
+	.subtitulo
+	{
+		font-size: 	23px;
+	}
+
+	.textoCarac
+	{
+		font-size: 19px;
+		line-height: 28px;
+
+		font-weight: 300;
+	}
+}
+
+
+@media all and (max-width: 340px) 
+{
+	.contenedorCaract
+	{
+		height: 425px;
+	}
+
+
+}
+
+
+
